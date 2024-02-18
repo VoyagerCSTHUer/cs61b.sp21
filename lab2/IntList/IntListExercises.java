@@ -67,9 +67,6 @@ public class IntListExercises {
      */
     public static boolean squarePrimes(IntList lst) {
         // Base Case: we have reached the end of the list
-        if (lst == null) {
-            return false;
-        }
 
         while(lst!=null){
             boolean currElemIsPrime = Primes.isPrime(lst.first);
